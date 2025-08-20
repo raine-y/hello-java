@@ -13,5 +13,7 @@ public class IO {
         System.out.println("Welcome, " + userName + "."); // <--- + = Concatenation
         System.out.println("...");
         System.out.println(userName + "...");
+
+        scanner.close();
     }
 }

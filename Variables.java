@@ -34,5 +34,7 @@ public class Variables {
 
         System.out.println("You said: " + bValue);
 
+        scanner.close();
+
     }
 }
